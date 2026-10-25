@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>BBP Outline - Deckbench</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: white;
+    }
+
+    .bbp-table {
+      width: 100%;
+      border-collapse: collapse;
+      border: 2px solid black;
+      margin-bottom: 20px;
+      table-layout: fixed;
+    }
+
+    .bbp-table td {
+      border: 1px solid black;
+      padding: 12px;
+      vertical-align: top;
+      font-size: 11pt;
+    }
+
+    .section-header {
+      background-color: #e8e8e8;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .act-header {
+      background-color: #d0d0d0;
+      font-weight: bold;
+      font-size: 12pt;
+      text-align: center;
+    }
+
+    .key-idea-cell {
+      background-color: #f0f0f0;
+      font-weight: bold;
+      vertical-align: middle;
+    }
+
+    .explanation-cell {
+      background-color: #f8f8f8;
+      vertical-align: middle;
+    }
+
+    .footer-text {
+      font-size: 10pt;
+      font-style: italic;
+      text-align: center;
+    }
+
+    .label {
+      display: block;
+      font-size: 9pt;
+      font-weight: normal;
+      text-transform: uppercase;
+      color: #555;
+      margin-bottom: 4px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Beyond Bullet Points Outline</h1>
+  <h2>Deckbench</h2>
+  <h3>Audience: trainers and content developers who keep training material in Git</h3>
+
+  <table class="bbp-table">
+    <colgroup>
+      <col style="width: 30%">
+      <col style="width: 30%">
+      <col style="width: 40%">
+    </colgroup>
+
+    <tr><td colspan="3" class="section-header">TITLE</td></tr>
+    <tr>
+      <td colspan="3"><strong>Drop Your Files, Get One Markdown Profile</strong><br>A browser workbench that converts the files in a training repo into Git-friendly Markdown.</td>
+    </tr>
+
+    <tr><td colspan="3" class="act-header">ACT 1: SETUP</td></tr>
+    <tr>
+      <td class="section-header">Setting</td>
+      <td class="section-header">Role</td>
+      <td class="section-header">Point A</td>
+    </tr>
+    <tr>
+      <td>Your training content lives in decks, handouts, PDFs, Word files, and spreadsheets.</td>
+      <td>You're a trainer or developer who wants it reviewable and versioned in Git.</td>
+      <td>Every format needs a different tool, and none of it diffs cleanly.</td>
+    </tr>
+
+    <tr><td colspan="3" class="section-header">TRANSITION 1</td></tr>
+    <tr><td colspan="3">Deckbench puts those formats behind one drop zone. Three ideas explain it: what goes in and out, how output adapts, and how it stays private.</td></tr>
+
+    <tr><td colspan="3" class="act-header">ACT 2: DEVELOP THE ACTION</td></tr>
+    <tr>
+      <td class="section-header">Key Idea (5 minutes)</td>
+      <td class="section-header">Explanation (15 minutes)</td>
+      <td class="section-header">Details (45 minutes)</td>
+    </tr>
+
+    <tr>
+      <td rowspan="9" class="key-idea-cell"><span class="label">Key Idea 1</span>One Drop Zone Turns Training Files into One Markdown Profile</td><td rowspan="3" class="explanation-cell"><span class="label">Explanation 1</span><strong>Many Formats In:</strong> the files you actually use</td><td>Decks, handouts, and PDFs</td>
+    </tr>
+    <tr>
+      <td>Word docs and spreadsheets</td>
+    </tr>
+    <tr>
+      <td>HTML exports and images</td>
+    </tr>
+    <tr>
+      <td rowspan="3" class="explanation-cell"><span class="label">Explanation 2</span><strong>Git-Friendly Output:</strong> Markdown that diffs well</td><td>Training Git v3 Markdown</td>
+    </tr>
+    <tr>
+      <td>Slide titles, bullets, and notes</td>
+    </tr>
+    <tr>
+      <td>Images saved beside the text</td>
+    </tr>
+    <tr>
+      <td rowspan="3" class="explanation-cell"><span class="label">Explanation 3</span><strong>Honest Limits:</strong> not a universal converter</td><td>No Keynote or Google Slides</td>
+    </tr>
+    <tr>
+      <td>No video or audio</td>
+    </tr>
+    <tr>
+      <td>No old binary Office files</td>
+    </tr>
+
+    <tr><td colspan="3" class="section-header">TRANSITION 2</td></tr>
+    <tr><td colspan="3">Restate: one drop zone, one Markdown profile. Relate: different sources need different handling. Introduce: how output adapts.</td></tr>
+
+    <tr>
+      <td rowspan="9" class="key-idea-cell"><span class="label">Key Idea 2</span>Output Adapts to the Kind of Source</td><td rowspan="3" class="explanation-cell"><span class="label">Explanation 1</span><strong>Slide-Like Sources:</strong> one slide per section</td><td>PowerPoint, ODP, and PDF</td>
+    </tr>
+    <tr>
+      <td>Titles, bullets, and speaker notes</td>
+    </tr>
+    <tr>
+      <td>Optional PNG of each PDF page</td>
+    </tr>
+    <tr>
+      <td rowspan="3" class="explanation-cell"><span class="label">Explanation 2</span><strong>Document-Like Sources:</strong> one Markdown file</td><td>CSV and Excel as tables</td>
+    </tr>
+    <tr>
+      <td>Markdown, TXT, and RTF</td>
+    </tr>
+    <tr>
+      <td>Word and HTML with heading-split off</td>
+    </tr>
+    <tr>
+      <td rowspan="3" class="explanation-cell"><span class="label">Explanation 3</span><strong>Download Options:</strong> take it your way</td><td>Copy the Markdown</td>
+    </tr>
+    <tr>
+      <td>Download the .md file</td>
+    </tr>
+    <tr>
+      <td>ZIP with images included</td>
+    </tr>
+
+    <tr><td colspan="3" class="section-header">TRANSITION 3</td></tr>
+    <tr><td colspan="3">Restate: output fits the source. Relate: training files often can't leave your machine. Introduce: how it runs privately.</td></tr>
+
+    <tr>
+      <td rowspan="9" class="key-idea-cell"><span class="label">Key Idea 3</span>Everything Runs Privately in the Browser</td><td rowspan="3" class="explanation-cell"><span class="label">Explanation 1</span><strong>Local Processing:</strong> files stay with you</td><td>Files never leave your machine</td>
+    </tr>
+    <tr>
+      <td>No uploads</td>
+    </tr>
+    <tr>
+      <td>Works in the browser</td>
+    </tr>
+    <tr>
+      <td rowspan="3" class="explanation-cell"><span class="label">Explanation 2</span><strong>Easy Intake:</strong> three ways to add files</td><td>Click to pick files</td>
+    </tr>
+    <tr>
+      <td>Drop files on the page</td>
+    </tr>
+    <tr>
+      <td>Paste a copied file</td>
+    </tr>
+    <tr>
+      <td rowspan="3" class="explanation-cell"><span class="label">Explanation 3</span><strong>Queue and Settings:</strong> control the result</td><td>Queue shows each job's status</td>
+    </tr>
+    <tr>
+      <td>Image width is configurable</td>
+    </tr>
+    <tr>
+      <td>HTML or Markdown image tags</td>
+    </tr>
+
+    <tr><td colspan="3" class="act-header">ACT 3: RESOLUTION</td></tr>
+    <tr>
+      <td class="section-header">Challenge</td>
+      <td class="section-header">Action</td>
+      <td class="section-header">Outcome</td>
+    </tr>
+    <tr>
+      <td><strong>How do I get all of this into Git?</strong><br><br>• Which files do I have?<br>• Which output mode fits?<br>• How do I keep images linked?</td>
+      <td><strong>Try it:</strong><br><br>• Drop in your decks and documents<br>• Choose slide or document mode<br>• Download the ZIP into your repo</td>
+      <td><strong>Content you can version:</strong><br><br>• One consistent Markdown profile<br>• Reviewable changes in Git<br>• Nothing sent off your machine</td>
+    </tr>
+
+    <tr><td colspan="3" class="section-header">CLOSING LINE</td></tr>
+    <tr><td colspan="3">Drop the files you use, get Markdown you can version.</td></tr>
+
+    <tr>
+      <td colspan="3" class="footer-text">
+        Beyond Bullet Points Story Template, &copy; 2007 Cliff Atkinson<br>
+        Deckbench
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
